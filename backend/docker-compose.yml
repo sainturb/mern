@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  backend:
+    image: test-node
+    ports:
+      - "8080:3000"
+    volumes:
+      - node_modules:/node_modules
